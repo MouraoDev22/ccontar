@@ -45,10 +45,16 @@ body {
     gap: 50px;
 }
 
+.cabecalho__esquerda__logo {
+    height: 10%;
+    width: 10%;
+}
+
 .cabecalho__esquerda__menu {
     display: flex;
     flex-direction: row;
     gap: 50px;
+    padding-top: 2.5%;
 }
 
 .cabecalho__esquerda__menu__link {
@@ -107,6 +113,12 @@ body {
     margin-top: 15px;
 }
 
+/* Container para o textarea e o botão de upload */
+.textarea-container {
+    position: relative;
+    width: 60%; /* Mantém a largura original do textarea */
+}
+
 /* Estilo para todos os botões e o textarea */
 #inputText, button {
     background-color: var(--cor-superficie);
@@ -131,9 +143,21 @@ button:hover {
 }
 
 #inputText {
-    width: 60%;
+    width: 100%; /* Ocupa 100% do novo container */
     height: 400px;
     resize: vertical;
+    padding-right: 50px; /* Adiciona espaço para não sobrepor o texto com o botão + */
+}
+
+/* Estilo específico para o botão de upload */
+#uploadBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 0; /* Remove o padding padrão para centralizar o '+' */
+    font-size: 1.5rem; /* Aumenta o tamanho do '+' */
 }
 
 #inputText:focus {
@@ -148,4 +172,49 @@ button:hover {
 .rodape__versao {
     text-align: center;
     padding: 1%;
+}
+
+/* --- Estilos da Modal "Sobre" --- */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none; /* Esconde a modal por padrão */
+    z-index: 1000;
+}
+
+.modal-overlay.is-visible {
+    display: flex; /* Mostra a modal */
+}
+
+.modal-content {
+    background-color: var(--cor-superficie);
+    color: var(--cor-texto-primario);
+    padding: 30px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    padding: 0;
+    line-height: 1;
 }

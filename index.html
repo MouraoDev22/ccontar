@@ -11,10 +11,10 @@
     <body>
         <header class="cabecalho" role="banner">
             <div class="cabecalho__esquerda">
-                <img class="cabecalho__esquerda__logo" src="#" alt="Logo CContar">
+                <img class="cabecalho__esquerda__logo" src="./assets/logo-dark-mode.png" alt="Logo CContar">
                 <nav class="cabecalho__esquerda__menu">
                     <a class="cabecalho__esquerda__menu__link" href="">Home</a>
-                    <a class="cabecalho__esquerda__menu__link" href="">Sobre</a>
+                    <a id="aboutLink" class="cabecalho__esquerda__menu__link" href="#">Sobre</a>
                 </nav>
             </div>
             <button id="toggleBtn">Tema</button>
@@ -22,7 +22,11 @@
         <main class="apresentacao">
             <div class="apresentacao__principal">
                 <label for="inputText">Cole ou escreva seu texto abaixo</label>
-                <textarea id="inputText" placeholder="Cole seu texto aqui..." aria-label="Área de texto para contagem"></textarea>
+                <div class="textarea-container">
+                    <textarea id="inputText" placeholder="Cole seu texto aqui..." aria-label="Área de texto para contagem"></textarea>
+                    <button id="uploadBtn" title="Analisar arquivo de texto">+</button>
+                    <input type="file" id="fileInput" accept=".txt" style="display: none;">
+                </div>
             </div>
             <section class="apresentacao__listaElementos">
                 <div id="words">Palavras: <strong id="wordCount">0</strong></div>
@@ -41,6 +45,16 @@
                 <p>Versão 1.0 — Última atualização: 27/11/2025</p>
             </div>
         </footer>
+
+        <!-- Modal "Sobre" -->
+        <div id="aboutModal" class="modal-overlay">
+            <div class="modal-content">
+                <button id="closeModalBtn" class="modal-close-btn">&times;</button>
+                <h2>Sobre o CContar</h2>
+                <p>O CContar é uma ferramenta simples e eficiente para análise de textos. Com ele, você pode rapidamente contar palavras e caracteres (com ou sem espaços) do seu texto.</p>
+                <p>Ideal para escritores, estudantes, tradutores e qualquer pessoa que precise de estatísticas rápidas sobre um texto. Basta colar, digitar ou carregar um arquivo .txt para começar!</p>
+            </div>
+        </div>
         <script src="script.js"></script>    
     </body>
 </html>

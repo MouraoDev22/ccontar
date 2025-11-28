@@ -8,7 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const copyBtn = document.getElementById('copyBtn');
     const clearBtn = document.getElementById('clearBtn');
     const downloadBtn = document.getElementById('downloadBtn');
+    const uploadBtn = document.getElementById('uploadBtn');
+    const fileInput = document.getElementById('fileInput');
     const toggleBtn = document.getElementById('toggleBtn');
+    const aboutLink = document.getElementById('aboutLink');
+    const aboutModal = document.getElementById('aboutModal');
+    const closeModalBtn = document.getElementById('closeModalBtn');
 
     // Função principal para atualizar as contagens
     function updateCounts() {
@@ -71,6 +76,48 @@ document.addEventListener('DOMContentLoaded', () => {
             a.click();
             document.body.removeChild(a);
             URL.revokeObjectURL(url);
+        }
+    });
+
+    // --- Funcionalidade de Upload de Arquivo ---
+
+    // Aciona o input de arquivo ao clicar no botão '+'
+    uploadBtn.addEventListener('click', () => {
+        fileInput.click();
+    });
+
+    // Lê o arquivo selecionado
+    fileInput.addEventListener('change', (event) => {
+        const file = event.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                inputText.value = e.target.result;
+                updateCounts(); // Analisa o conteúdo do arquivo
+            };
+            reader.readAsText(file);
+        }
+        // Limpa o valor para permitir selecionar o mesmo arquivo novamente
+        event.target.value = '';
+    });
+
+    // --- Funcionalidade da Modal "Sobre" ---
+
+    // Abre a modal
+    aboutLink.addEventListener('click', (event) => {
+        event.preventDefault(); // Impede o link de navegar
+        aboutModal.classList.add('is-visible');
+    });
+
+    // Fecha a modal pelo botão 'X'
+    closeModalBtn.addEventListener('click', () => {
+        aboutModal.classList.remove('is-visible');
+    });
+
+    // Fecha a modal ao clicar fora da caixa de conteúdo
+    aboutModal.addEventListener('click', (event) => {
+        if (event.target === aboutModal) {
+            aboutModal.classList.remove('is-visible');
         }
     });
 
