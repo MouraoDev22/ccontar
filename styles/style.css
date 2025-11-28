@@ -50,6 +50,12 @@ body {
     width: 10%;
 }
 
+.cabecalho__esquerda__logo {
+    content: url('../assets/logo-dark-mode.png'); /* Logo para o tema escuro (padrão) */
+}
+body.light-theme .cabecalho__esquerda__logo {
+    content: url('../assets/logo-light-mode.png'); /* Logo para o tema claro */
+}
 .cabecalho__esquerda__menu {
     display: flex;
     flex-direction: row;
