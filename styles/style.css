@@ -1,0 +1,43 @@
+body {
+    box-sizing: border-box;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.cabecalho__esquerda {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.cabecalho__esquerda__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.cabecalho__esquerda__menu__link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    height: 100vh;
+}
+
+.rodape {
+    border-top: 1px solid #ffffff;
+}
+
+.rodape__versao {
+    text-align: center;
+    padding: 1%;
+}
