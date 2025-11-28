@@ -17,7 +17,7 @@
                     <a class="cabecalho__esquerda__menu__link" href="">Sobre</a>
                 </nav>
             </div>
-            <button id="toggleBtn" onclick="trocarTema ()">Tema</button>
+            <button id="toggleBtn">Tema</button>
         </header>
         <main class="apresentacao">
             <div class="apresentacao__principal">
@@ -25,11 +25,9 @@
                 <textarea id="inputText" placeholder="Cole seu texto aqui..." aria-label="Área de texto para contagem"></textarea>
             </div>
             <section class="apresentacao__listaElementos">
-                <div id="words">Palavras: <strong>0</strong></div>
-                <div id="chars">Caracteres (com espaços): <strong>0</strong></div>
-                <div id="charsNoSpace">Caracteres (sem espaços): <strong>0</strong></div>
-                <div id="lines">Linhas: <strong>0</strong></div>
-                <div id="readTime">Tempo leitura: <strong>0 min</strong></div>
+                <div id="words">Palavras: <strong id="wordCount">0</strong></div>
+                <div id="chars">Caracteres (com espaços): <strong id="charCount">0</strong></div>
+                <div id="charsNoSpace">Caracteres (sem espaços): <strong id="charNoSpaceCount">0</strong></div>
             </section>
             <section class="apresentacao__listaBotoes">
                 <button id="copyBtn">Copiar texto</button>
