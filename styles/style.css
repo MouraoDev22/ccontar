@@ -29,8 +29,33 @@ body {
     color: #ffffff;
 }
 
-main {
-    height: 100vh;
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 1%;
+}
+
+.apresentacao__principal {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.apresentacao__listaElementos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.apresentacao__listaBotoes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .rodape {
