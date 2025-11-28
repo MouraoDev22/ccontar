@@ -9,23 +9,38 @@
         <title>CContar</title>
     </head>
     <body>
-        <header class="cabecalho">
+        <header class="cabecalho" role="banner">
             <div class="cabecalho__esquerda">
-                <img class="cabecalho__esquerda__logo" src="" alt="Logo CContar">
+                <img class="cabecalho__esquerda__logo" src="#" alt="Logo CContar">
                 <nav class="cabecalho__esquerda__menu">
                     <a class="cabecalho__esquerda__menu__link" href="">Home</a>
                     <a class="cabecalho__esquerda__menu__link" href="">Sobre</a>
                 </nav>
             </div>
-            <button class="cabecalho__tema" onclick="trocarTema ()">Tema</button>
+            <button id="toggleBtn" onclick="trocarTema ()">Tema</button>
         </header>
         <main class="apresentacao">
-
+            <label for="inputText">Cole ou escreva seu texto abaixo</label>
+            <textarea id="inputText" placeholder="Cole seu texto aqui..." aria-label="Área de texto para contagem"></textarea>
+            <section class="apresentacao__listaElementos">
+                <div id="words">Palavras: <strong>0</strong></div>
+                <div id="chars">Caracteres (com espaços): <strong>0</strong></div>
+                <div id="charsNoSpace">Caracteres (sem espaços): <strong>0</strong></div>
+                <div id="lines">Linhas: <strong>0</strong></div>
+                <div id="readTime">Tempo leitura: <strong>0 min</strong></div>
+            </section>
+            <section class="apresentacao__listaBotoes">
+                <button id="copyBtn">Copiar texto</button>
+                <button id="clearBtn">Limpar</button>
+                <button id="downloadBtn">Baixar .txt</button>
+            </section>
+            <p>Nota: palavras são contadas por separação de espaço.</p>
         </main>
-        <footer class="rodape">
+        <footer class="rodape" role="contentinfo">
             <div class="rodape__versao">
                 <p>Versão 1.0 — Última atualização: 27/11/2025</p>
             </div>
         </footer>
+        <script src="script.js"></script>    
     </body>
 </html>
