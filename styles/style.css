@@ -175,9 +175,17 @@ button:hover {
     border-top: 3px solid var(--cor-borda);
 }
 
+.rodape__direitosPitch {
+    font-size: 10px;
+    text-align: left;
+    color: var(--cor-texto-secundario);
+    padding: 1% 0% 0% 1%;
+}
+
 .rodape__versao {
+    font-size: 15px;
     text-align: center;
-    padding: 1%;
+    padding-bottom: 1%;
 }
 
 /* --- Estilos da Modal "Sobre" --- */
