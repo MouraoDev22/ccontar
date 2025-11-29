@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ccontarapp.com.br/sitemap.xml
