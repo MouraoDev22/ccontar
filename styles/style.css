@@ -171,6 +171,34 @@ button:hover {
     border-color: var(--cor-destaque);
 }
 
+.apresentacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: justify;
+    padding: 5% 15% 0% 15%;
+    gap: 2rem; /* Espaçamento entre parágrafos */
+    max-width: 75ch; /* Limita a largura para melhor legibilidade (aprox. 75 caracteres por linha) */
+    margin: 0 auto; /* Centraliza o container de conteúdo */
+    padding: 5% 2rem 0 2rem; /* Adiciona padding nas laterais para telas menores */
+    line-height: 1.7; /* Aumenta o espaçamento entre linhas */
+    text-align: left; /* Melhora a legibilidade em comparação com 'justify' */
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 0.5rem; /* Espaço entre o texto e a borda */
+    border-bottom: 2px solid var(--cor-borda); /* Linha sutil abaixo do título */
+    transition: border-color 0.3s ease; /* Transição suave para o hover */
+}
+
+.apresentacao__conteudo__titulo:hover {
+    color: var(--cor-destaque);
+    border-color: var(--cor-destaque); /* Muda a cor da borda no hover */
+    cursor: pointer;
+}
+
 .rodape {
     border-top: 3px solid var(--cor-borda);
 }
