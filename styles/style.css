@@ -3,8 +3,8 @@
 :root {
     --cor-fundo: #000000;
     --cor-texto: #EEEEEE;
-    --cor-cabecalho: #8E1616;
     --cor-borda: #D84040;
+    --cor-rodape: #111111;
 }
 
 body {
@@ -15,8 +15,7 @@ body {
 
 .cabecalho {
     background-color: var(--cor-fundo);
-    padding: 0.5%;
-    border-bottom: 0.1rem solid var(--cor-borda);
+    padding: 1%;
 }
 
 .cabecalho__esquerda {
@@ -76,11 +75,14 @@ body {
 }
 
 .rodape {
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-rodape);
     border-top: 0.1rem solid var(--cor-borda);
     padding: 1%;
 }
 
-.rodape__direitosPitch {
+.rodape__info {
     color: var(--cor-texto);
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
 }
