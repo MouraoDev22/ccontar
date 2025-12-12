@@ -62,6 +62,13 @@ body {
     flex-direction: column;
     gap: 1rem;
     width: 150px;
+    transition: 0.5s;
+}
+
+.apresentacao__artigo:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .apresentacao__artigo__imagem {
@@ -72,7 +79,7 @@ body {
 }
 
 .apresentacao__artigo__titulo {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .rodape {
