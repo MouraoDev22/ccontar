@@ -1,0 +1,12 @@
+.rodape {
+    background-color: var(--cor-rodape);
+    border-top: 0.1rem solid var(--cor-borda);
+    padding: 1%;
+}
+
+.rodape__info {
+    color: var(--cor-texto);
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}

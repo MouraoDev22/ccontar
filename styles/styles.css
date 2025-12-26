@@ -1,3 +1,5 @@
+@import url(header.css);
+@import url(footer.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
@@ -11,38 +13,6 @@ body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     font-family: "Roboto", sans-serif;;
-}
-
-.cabecalho {
-    background-color: var(--cor-fundo);
-    padding: 1% 1% 1% 10%;
-}
-
-.cabecalho__esquerda {
-    display: flex;
-    flex-direction: row;
-    gap: 10rem;
-    align-items: center;
-}
-
-.cabecalho__esquerda__logo {
-    width: 8%;
-}
-
-.cabecalho__esquerda__menu {
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
-}
-
-.cabecalho__esquerda__menu__link {
-    text-decoration: none;
-    color: var(--cor-texto);
-}
-
-.cabecalho__esquerda__menu__link:hover {
-    text-decoration: none;
-    color: var(--cor-borda);
 }
 
 .apresentacao {
@@ -161,17 +131,4 @@ body {
 
 .apresentacao__artigo__botao.ativo::after {
     transform: rotate(-135deg); /* Seta para cima */
-}
-
-.rodape {
-    background-color: var(--cor-rodape);
-    border-top: 0.1rem solid var(--cor-borda);
-    padding: 1%;
-}
-
-.rodape__info {
-    color: var(--cor-texto);
-    gap: 1rem;
-    display: flex;
-    flex-direction: column;
 }

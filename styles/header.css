@@ -1,0 +1,31 @@
+.cabecalho {
+    background-color: var(--cor-fundo);
+    padding: 1% 1% 1% 10%;
+}
+
+.cabecalho__esquerda {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    align-items: center;
+}
+
+.cabecalho__esquerda__logo {
+    width: 8%;
+}
+
+.cabecalho__esquerda__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.cabecalho__esquerda__menu__link {
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+.cabecalho__esquerda__menu__link:hover {
+    text-decoration: none;
+    color: var(--cor-borda);
+}
