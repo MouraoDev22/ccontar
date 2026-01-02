@@ -57,3 +57,21 @@ function verificarResposta(btn, gabaritoCompleto, index) {
     // Mostra a explicação
     feedback.style.display = 'block';
 }
+
+// Lógica do Botão Voltar ao Topo
+const btnVoltarTopo = document.getElementById('btnVoltarTopo');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        btnVoltarTopo.classList.add('visivel');
+    } else {
+        btnVoltarTopo.classList.remove('visivel');
+    }
+});
+
+btnVoltarTopo.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});

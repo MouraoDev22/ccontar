@@ -14,7 +14,8 @@
     --cor-texto-aviso: #850404;
     --cor-borda-aviso: #ffbaba;
 
-    --cor-fundo-alternativa: #282828;
+    --cor-fundo-alternativa: #121212;
+    --cor-fundo-alternativa-2: #111111;
 }
 
 body {
@@ -22,6 +23,8 @@ body {
     color: var(--cor-texto);
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .apresentacao {
@@ -77,4 +80,49 @@ body {
 
 .apresentacao__artigos__artigo__titulo {
     font-size: 1.1rem;
+}
+
+/* Botão Voltar ao Topo */
+.btn-voltar-topo {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: var(--cor-borda);
+    color: var(--cor-fundo);
+    border: none;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+    z-index: 1000;
+    box-shadow: 0 0.125rem 0.625rem rgba(0,0,0,0.3);
+}
+
+.btn-voltar-topo.visivel {
+    opacity: 1;
+    visibility: visible;
+}
+
+.btn-voltar-topo:hover {
+    transform: scale(1.1);
+    background-color: var(--cor-texto);
+    color: var(--cor-fundo);
+}
+
+@media (max-width: 768px) {
+    .apresentacao {
+        padding: 2rem 5%;
+        gap: 2rem;
+    }
+
+    .apresentacao__titulo {
+        font-size: 2rem;
+    }
 }

@@ -29,3 +29,31 @@
     text-decoration: none;
     color: var(--cor-borda);
 }
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 1.5rem;
+    }
+
+    .cabecalho__esquerda {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+    }
+
+    .cabecalho__esquerda__logo {
+        width: 40%;
+        max-width: 150px;
+    }
+
+    .cabecalho__esquerda__menu {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cabecalho__esquerda__menu__link {
+        padding: 0.5rem;
+        font-size: 1.1rem;
+    }
+}

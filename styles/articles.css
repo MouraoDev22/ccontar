@@ -1,9 +1,9 @@
 .apresentacao__artigo {
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     font-size: 1.2rem;
     line-height: 1.5rem;
-    gap: 2rem;
+    gap: 1rem;
     display: flex;
     flex-direction: column;
     padding: 0% 10% 0% 10%;
@@ -11,51 +11,93 @@
 
 .apresentacao__artigo__titulo {
     color: var(--cor-borda);
-    font: bold;
+    font-weight: bold;
     font-size: 2.25rem;
     text-decoration: underline;
+    text-align: center;
+    margin: 0.5rem 0;
 }
 
 .apresentacao__artigo__subtitulo {
     color: var(--cor-borda);
     font-weight: bold;
     font-size: 1.5rem;
+    scroll-margin-top: 2rem;
+    margin: 5rem 0 1rem 0;
 }
 
 .apresentacao__artigo__paragrafo {
     font-size: 1rem;
+    text-align: justify;
 }
 
-.apresentacao__artigo__botao {
-    background-color: transparent;
-    border: 0;
-    font-size: 1rem;
-    color: var(--cor-texto);
-    cursor: pointer;
+/* Destaque para termos importantes no texto */
+.apresentacao__artigo__paragrafo strong {
+    color: var(--cor-borda);
+    font-weight: 700;
+}
+
+/* Estilos do Índice (Sumário) */
+.apresentacao__artigo__indice {
+    background-color: var(--cor-fundo-alternativa);
+    border: 0.0625rem solid var(--cor-borda);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 50rem;
+    margin: 1rem 0;
+}
+
+.apresentacao__artigo__indice__titulo {
+    color: var(--cor-borda);
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.apresentacao__artigo__indice__lista {
+    list-style: none;
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 0.5rem;
 }
 
-.apresentacao__artigo__botao:hover {
+.apresentacao__artigo__indice__lista a {
+    color: var(--cor-texto);
+    text-decoration: none;
+}
+
+.apresentacao__artigo__indice__lista a:hover {
     color: var(--cor-borda);
+    text-decoration: underline;
 }
 
-.apresentacao__artigo__botao::after {
-    content: '';
-    display: block;
-    width: 0.5rem; /* 8px */
-    height: 0.5rem; /* 8px */
-    border-bottom: 0.125rem solid var(--cor-texto); /* 2px */
-    border-right: 0.125rem solid var(--cor-texto); /* 2px */
-    transform: rotate(45deg); /* Seta para baixo */
+/* Estilos do Glossário */
+.apresentacao__artigo__glossario {
+    width: 100%;
 }
 
-.apresentacao__artigo__botao:hover::after {
-    border-color: var(--cor-borda);
+.apresentacao__artigo__glossario dt {
+    color: var(--cor-borda);
+    font-weight: bold;
+    margin-top: 1rem;
 }
 
-.apresentacao__artigo__botao.ativo::after {
-    transform: rotate(-135deg); /* Seta para cima */
+.apresentacao__artigo__glossario dd {
+    margin-left: 1.5rem;
+    margin-top: 0.25rem;
+}
+
+@media (max-width: 768px) {
+    .apresentacao__artigo {
+        padding: 0;
+    }
+
+    .apresentacao__artigo__titulo {
+        font-size: 1.75rem;
+    }
+
+    .apresentacao__artigo__subtitulo {
+        font-size: 1.3rem;
+    }
 }
