@@ -1,0 +1,654 @@
+{
+    "virologia": [
+        {
+            "titulo": "Questão 1 (ENEM – 2011)",
+            "enunciado": "Vírus diferem dos demais seres vivos porque:",
+            "alternativas": [
+                "a) Não possuem proteínas estruturais",
+                "b) Não apresentam material genético",
+                "c) Não realizam metabolismo próprio",
+                "d) Não se reproduzem",
+                "e) Não causam doenças"
+            ],
+            "gabarito": "c) Não realizam metabolismo próprio",
+            "explicacao": "Vírus são parasitas intracelulares obrigatórios, o que significa que não possuem maquinaria metabólica própria (como ribossomos ou enzimas para produção de energia). Eles dependem inteiramente da célula hospedeira para sintetizar proteínas e replicar seu material genético."
+        },
+        {
+            "titulo": "Questão 2 (ENEM – 2013)",
+            "enunciado": "A necessidade de vacinação anual contra a gripe ocorre principalmente porque o vírus:",
+            "alternativas": [
+                "a) Não induz memória imunológica",
+                "b) Apresenta baixa taxa de infecção",
+                "c) Sofre frequentes mutações antigênicas",
+                "d) É eliminado rapidamente pelo organismo",
+                "e) Possui DNA altamente estável"
+            ],
+            "gabarito": "c) Sofre frequentes mutações antigênicas",
+            "explicacao": "O vírus da gripe (Influenza) possui um genoma de RNA segmentado que sofre altas taxas de mutação (drift antigênico) e rearranjo (shift antigênico). Isso altera as proteínas de superfície, fazendo com que os anticorpos gerados por vacinas anteriores não reconheçam as novas cepas."
+        },
+        {
+            "titulo": "Questão 3 (ENEM – 2017)",
+            "enunciado": "O HIV compromete o sistema imunológico humano ao infectar principalmente:",
+            "alternativas": [
+                "a) Linfócitos B",
+                "b) Neutrófilos",
+                "c) Linfócitos T CD4⁺",
+                "d) Hemácias",
+                "e) Macrófagos exclusivamente"
+            ],
+            "gabarito": "c) Linfócitos T CD4⁺",
+            "explicacao": "O HIV infecta e destrói especificamente os linfócitos T CD4+ (auxiliares), que são fundamentais para coordenar a resposta imune. Sem eles, o corpo não consegue ativar adequadamente a produção de anticorpos e células citotóxicas, levando à imunodeficiência."
+        },
+        {
+            "titulo": "Questão 4 (FUVEST – 2008)",
+            "enunciado": "A estrutura mínima comum a todos os vírus é:",
+            "alternativas": [
+                "a) Membrana plasmática",
+                "b) Citoplasma",
+                "c) Ácido nucleico envolto por capsídeo",
+                "d) Ribossomos",
+                "e) Parede celular"
+            ],
+            "gabarito": "c) Ácido nucleico envolto por capsídeo",
+            "explicacao": "A estrutura viral básica, presente em todos os vírus, consiste em um ácido nucleico (DNA ou RNA) envolto por uma capa proteica chamada capsídeo. O envelope lipídico é uma estrutura acessória presente apenas em alguns grupos de vírus."
+        },
+        {
+            "titulo": "Questão 5 (FUVEST – 2010)",
+            "enunciado": "Vírus envelopados obtêm seu envelope principalmente a partir:",
+            "alternativas": [
+                "a) Do capsídeo viral",
+                "b) Da membrana da célula hospedeira",
+                "c) Do núcleo viral",
+                "d) Do citosol",
+                "e) Do DNA viral"
+            ],
+            "gabarito": "b) Da membrana da célula hospedeira",
+            "explicacao": "Vírus envelopados adquirem seu envelope lipídico durante o processo de brotamento, ao saírem da célula hospedeira. Eles 'roubam' parte da membrana plasmática da célula, incorporando proteínas virais nela."
+        },
+        {
+            "titulo": "Questão 6 (FUVEST – 2017)",
+            "enunciado": "A elevada taxa de mutação dos vírus RNA está relacionada principalmente:",
+            "alternativas": [
+                "a) À presença de envelope",
+                "b) À ausência de mecanismos de correção",
+                "c) À baixa taxa reprodutiva",
+                "d) À integração ao genoma do hospedeiro",
+                "e) Ao ciclo lisogênico"
+            ],
+            "gabarito": "b) À ausência de mecanismos de correção",
+            "explicacao": "Diferente das DNA-polimerases, as enzimas RNA-polimerases virais geralmente não possuem atividade de revisão (proofreading). Isso resulta em uma alta taxa de erros durante a replicação, gerando grande variabilidade genética."
+        },
+        {
+            "titulo": "Questão 7 (UNESP – 2009)",
+            "enunciado": "Os vírus são considerados acelulares porque:",
+            "alternativas": [
+                "a) Não possuem DNA",
+                "b) Não apresentam organização celular",
+                "c) Não realizam reprodução",
+                "d) Não possuem proteínas",
+                "e) Não causam doenças"
+            ],
+            "gabarito": "b) Não apresentam organização celular",
+            "explicacao": "Vírus são considerados acelulares porque não possuem a estrutura básica de uma célula: não têm membrana plasmática própria (exceto o envelope derivado), citoplasma, ribossomos ou organelas para metabolismo energético."
+        },
+        {
+            "titulo": "Questão 8 (UNESP – 2012)",
+            "enunciado": "Retrovírus diferenciam-se por apresentarem:",
+            "alternativas": [
+                "a) DNA fita dupla",
+                "b) RNA e transcriptase reversa",
+                "c) Metabolismo próprio",
+                "d) Cápside bacteriana",
+                "e) Parede celular"
+            ],
+            "gabarito": "b) RNA e transcriptase reversa",
+            "explicacao": "Retrovírus possuem genoma de RNA, mas replicam-se através de um intermediário de DNA. A enzima transcriptase reversa é responsável por sintetizar DNA a partir do molde de RNA viral, um processo reverso ao fluxo central da biologia molecular."
+        },
+        {
+            "titulo": "Questão 9 (UNESP – 2015)",
+            "enunciado": "O material genético dos vírus pode ser:",
+            "alternativas": [
+                "a) Apenas DNA fita dupla",
+                "b) Apenas RNA fita simples",
+                "c) DNA ou RNA",
+                "d) Sempre DNA",
+                "e) Sempre RNA"
+            ],
+            "gabarito": "c) DNA ou RNA",
+            "explicacao": "Diferente de células que sempre têm genoma de DNA fita dupla, os vírus possuem grande diversidade. Podem ter DNA ou RNA, que podem ser fita simples ou dupla. Nunca possuem ambos funcionais simultaneamente como genoma."
+        },
+        {
+            "titulo": "Questão 10 (ENEM – 2020)",
+            "enunciado": "Antibióticos não são eficazes contra infecções virais porque:",
+            "alternativas": [
+                "a) Vírus são resistentes",
+                "b) Vírus não possuem parede celular",
+                "c) Vírus não apresentam metabolismo próprio",
+                "d) Antibióticos causam mutações",
+                "e) Vírus são eucariontes"
+            ],
+            "gabarito": "c) Vírus não apresentam metabolismo próprio",
+            "explicacao": "Antibióticos atacam estruturas bacterianas específicas, como parede celular ou ribossomos. Como vírus não possuem essas estruturas e usam a maquinaria da própria célula humana, antibióticos não têm efeito sobre eles."
+        },
+        {
+            "titulo": "Questão 11 (UNICAMP – 2014)",
+            "enunciado": "Durante a replicação viral, muitos vírus utilizam estruturas da célula hospedeira porque:",
+            "alternativas": [
+                "a) Possuem metabolismo próprio incompleto",
+                "b) Não apresentam ribossomos funcionais",
+                "c) Necessitam apenas de ATP celular",
+                "d) Utilizam exclusivamente enzimas do núcleo",
+                "e) Possuem apenas RNA mensageiro"
+            ],
+            "gabarito": "b) Não apresentam ribossomos funcionais",
+            "explicacao": "A síntese de proteínas requer ribossomos, organelas que os vírus não possuem. Por isso, eles precisam obrigatoriamente infectar uma célula para utilizar os ribossomos do hospedeiro na produção de suas proteínas."
+        },
+        {
+            "titulo": "Questão 12 (UNICAMP – 2016)",
+            "enunciado": "A integração do material genético viral ao DNA da célula hospedeira caracteriza:",
+            "alternativas": [
+                "a) Ciclo lítico",
+                "b) Endocitose",
+                "c) Ciclo lisogênico",
+                "d) Fagocitose",
+                "e) Brotamento"
+            ],
+            "gabarito": "c) Ciclo lisogênico",
+            "explicacao": "No ciclo lisogênico, o DNA viral é incorporado ao cromossomo da célula hospedeira (tornando-se um profago). Ele é replicado passivamente a cada divisão celular sem destruir a célula imediatamente."
+        },
+        {
+            "titulo": "Questão 13 (UFRGS – 2012)",
+            "enunciado": "No ciclo lítico de um bacteriófago ocorre:",
+            "alternativas": [
+                "a) Integração do DNA viral",
+                "b) Latência",
+                "c) Lise da célula hospedeira",
+                "d) Formação de esporos",
+                "e) Encapsulamento permanente"
+            ],
+            "gabarito": "c) Lise da célula hospedeira",
+            "explicacao": "No ciclo lítico, o vírus assume o comando da célula para produzir novas partículas virais rapidamente. O acúmulo de vírus e enzimas virais leva à lise (rompimento) da membrana, liberando os vírus e matando a célula."
+        },
+        {
+            "titulo": "Questão 14 (UFRGS – 2015)",
+            "enunciado": "Bacteriófagos infectam:",
+            "alternativas": [
+                "a) Fungos",
+                "b) Protozoários",
+                "c) Bactérias",
+                "d) Algas",
+                "e) Células animais"
+            ],
+            "gabarito": "c) Bactérias",
+            "explicacao": "Bacteriófagos são vírus que infectam exclusivamente bactérias. Eles reconhecem receptores específicos na parede celular bacteriana, não sendo capazes de infectar células animais ou vegetais."
+        },
+        {
+            "titulo": "Questão 15 (UFRGS – 2018)",
+            "enunciado": "A febre em infecções virais ocorre principalmente devido:",
+            "alternativas": [
+                "a) À ação direta do vírus",
+                "b) À produção de toxinas",
+                "c) À resposta imunológica",
+                "d) À lise neuronal",
+                "e) À ação bacteriana"
+            ],
+            "gabarito": "c) À resposta imunológica",
+            "explicacao": "A febre é uma resposta do sistema imune, não uma ação direta do vírus. Células de defesa liberam citocinas (pirógenos) que atuam no hipotálamo, elevando a temperatura corporal para tentar inibir a replicação viral."
+        },
+        {
+            "titulo": "Questão 16 (UFPR – 2009)",
+            "enunciado": "Os vírus dependem das células hospedeiras porque:",
+            "alternativas": [
+                "a) Não possuem cápside",
+                "b) Não apresentam metabolismo próprio",
+                "c) Não possuem material genético",
+                "d) Não apresentam proteínas",
+                "e) Não infectam células"
+            ],
+            "gabarito": "b) Não apresentam metabolismo próprio",
+            "explicacao": "Vírus são inertes fora de uma célula. Eles não consomem energia nem crescem. Só manifestam propriedades de vida, como reprodução e evolução, quando estão dentro de uma célula hospedeira utilizando seus recursos."
+        },
+        {
+            "titulo": "Questão 17 (UFPR – 2013)",
+            "enunciado": "O capsídeo viral tem como função principal:",
+            "alternativas": [
+                "a) Produzir energia",
+                "b) Permitir locomoção",
+                "c) Proteger o material genético",
+                "d) Sintetizar proteínas",
+                "e) Controlar metabolismo"
+            ],
+            "gabarito": "c) Proteger o material genético",
+            "explicacao": "A função primária do capsídeo proteico é proteger o material genético viral (DNA ou RNA) contra danos no ambiente extracelular e auxiliar na entrega desse material para dentro da célula hospedeira."
+        },
+        {
+            "titulo": "Questão 18 (UFPR – 2016)",
+            "enunciado": "Vírus envelopados são sensíveis a detergentes porque:",
+            "alternativas": [
+                "a) Possuem cápside frágil",
+                "b) O envelope é lipídico",
+                "c) Não possuem proteínas",
+                "d) Utilizam RNA",
+                "e) Não realizam ciclo lisogênico"
+            ],
+            "gabarito": "b) O envelope é lipídico",
+            "explicacao": "O envelope viral é uma membrana lipídica. Detergentes e sabão desestruturam essa camada de gordura. Sem o envelope intacto, o vírus perde as proteínas de ligação e não consegue mais infectar células."
+        },
+        {
+            "titulo": "Questão 19 (UNICAMP – 2018)",
+            "enunciado": "A transcriptase reversa é característica de vírus que possuem:",
+            "alternativas": [
+                "a) DNA fita dupla",
+                "b) RNA",
+                "c) Cápside bacteriana",
+                "d) Metabolismo próprio",
+                "e) Parede celular"
+            ],
+            "gabarito": "b) RNA",
+            "explicacao": "A transcriptase reversa é exclusiva de vírus que precisam converter RNA em DNA, como os retrovírus. Ela permite que o genoma de RNA seja copiado para DNA e integrado ao genoma da célula hospedeira."
+        },
+        {
+            "titulo": "Questão 20 (UFRGS – 2010)",
+            "enunciado": "A replicação viral ocorre:",
+            "alternativas": [
+                "a) Fora da célula",
+                "b) Dentro da célula hospedeira",
+                "c) Apenas no sangue",
+                "d) No sistema linfático",
+                "e) No ambiente"
+            ],
+            "gabarito": "b) Dentro da célula hospedeira",
+            "explicacao": "A replicação viral exige energia (ATP) e maquinaria de síntese (ribossomos) que o vírus não possui. Portanto, todo o processo de montagem de novos vírus deve ocorrer obrigatoriamente dentro de uma célula."
+        },
+        {
+            "titulo": "Questão 21 (UFMG – 2011)",
+            "enunciado": "Vírus são parasitas intracelulares obrigatórios porque:",
+            "alternativas": [
+                "a) Não possuem cápside",
+                "b) Não apresentam metabolismo próprio",
+                "c) Não possuem material genético",
+                "d) Não se reproduzem",
+                "e) Não infectam células"
+            ],
+            "gabarito": "b) Não apresentam metabolismo próprio",
+            "explicacao": "Eles são chamados de parasitas intracelulares obrigatórios porque carecem de metabolismo próprio. Fora da célula, são partículas inertes; apenas no interior celular conseguem se replicar."
+        },
+        {
+            "titulo": "Questão 22 (UFMG – 2014)",
+            "enunciado": "A principal diferença entre vírus de DNA e de RNA está:",
+            "alternativas": [
+                "a) No tamanho",
+                "b) No tipo celular infectado",
+                "c) No mecanismo de replicação",
+                "d) No envelope",
+                "e) Na transmissão"
+            ],
+            "gabarito": "c) No mecanismo de replicação",
+            "explicacao": "Vírus de DNA geralmente replicam-se no núcleo usando enzimas celulares, enquanto vírus de RNA muitas vezes replicam-se no citoplasma e precisam codificar suas próprias enzimas de replicação (RNA-polimerases)."
+        },
+        {
+            "titulo": "Questão 23 (UFSC – 2012)",
+            "enunciado": "No ciclo lisogênico ocorre:",
+            "alternativas": [
+                "a) Lise imediata",
+                "b) Produção de vírus",
+                "c) Integração do genoma viral",
+                "d) Digestão viral",
+                "e) Formação de esporos"
+            ],
+            "gabarito": "c) Integração do genoma viral",
+            "explicacao": "No ciclo lisogênico, o material genético do vírus integra-se ao DNA da bactéria e é replicado junto com ela a cada divisão, mantendo-se latente sem causar a morte imediata da célula."
+        },
+        {
+            "titulo": "Questão 24 (UFSC – 2016)",
+            "enunciado": "A transmissão da dengue envolve:",
+            "alternativas": [
+                "a) Contato direto",
+                "b) Água",
+                "c) Vetor artrópode",
+                "d) Alimento",
+                "e) Ar"
+            ],
+            "gabarito": "c) Vetor artrópode",
+            "explicacao": "A dengue é transmitida pela picada da fêmea do mosquito *Aedes aegypti*. O vírus replica-se no mosquito e é transmitido ao ser humano através da saliva durante a picada."
+        },
+        {
+            "titulo": "Questão 25 (UECE – 2015)",
+            "enunciado": "A principal função do capsídeo viral é:",
+            "alternativas": [
+                "a) Produzir energia",
+                "b) Armazenar enzimas",
+                "c) Proteger o material genético",
+                "d) Realizar respiração",
+                "e) Controlar divisão celular"
+            ],
+            "gabarito": "c) Proteger o material genético",
+            "explicacao": "O capsídeo é a estrutura proteica que envolve e protege o genoma viral. Ele é formado por subunidades chamadas capsômeros e determina a forma do vírus (icosaédrica, helicoidal, etc.)."
+        },
+        {
+            "titulo": "Questão 26 (UECE – 2017)",
+            "enunciado": "Vírus envelopados diferenciam-se por possuir:",
+            "alternativas": [
+                "a) DNA fita dupla",
+                "b) Parede celular",
+                "c) Membrana lipídica",
+                "d) Maior tamanho",
+                "e) Metabolismo próprio"
+            ],
+            "gabarito": "c) Membrana lipídica",
+            "explicacao": "A principal diferença é a presença do envelope, uma bicamada lipídica adquirida da membrana da célula hospedeira. Vírus não envelopados possuem apenas o capsídeo proteico protegendo o genoma."
+        },
+        {
+            "titulo": "Questão 27 (UFMG – 2017)",
+            "enunciado": "A alta variabilidade genética dos vírus RNA dificulta:",
+            "alternativas": [
+                "a) A infecção",
+                "b) O tratamento antibiótico",
+                "c) O desenvolvimento de vacinas",
+                "d) A transmissão",
+                "e) A replicação"
+            ],
+            "gabarito": "c) O desenvolvimento de vacinas",
+            "explicacao": "A alta taxa de mutação dos vírus de RNA altera constantemente suas proteínas de superfície. Isso dificulta a criação de vacinas duradouras, pois o vírus 'muda de cara', escapando do reconhecimento imunológico."
+        },
+        {
+            "titulo": "Questão 28 (UFSC – 2018)",
+            "enunciado": "A replicação viral ocorre:",
+            "alternativas": [
+                "a) No ambiente",
+                "b) Fora da célula",
+                "c) Na célula hospedeira",
+                "d) Apenas no núcleo",
+                "e) No sistema linfático"
+            ],
+            "gabarito": "c) Na célula hospedeira",
+            "explicacao": "O ambiente extracelular não possui os componentes necessários para a vida. A replicação viral ocorre dentro da célula hospedeira, que fornece nucleotídeos, aminoácidos, energia e ribossomos."
+        },
+        {
+            "titulo": "Questão 29 (UECE – 2019)",
+            "enunciado": "Antibióticos não atuam contra vírus porque:",
+            "alternativas": [
+                "a) Vírus são eucariontes",
+                "b) Possuem cápside resistente",
+                "c) Não apresentam metabolismo próprio",
+                "d) Vivem fora das células",
+                "e) Produzem toxinas"
+            ],
+            "gabarito": "c) Não apresentam metabolismo próprio",
+            "explicacao": "Antibióticos são drogas antibacterianas que inibem processos como síntese de parede celular ou tradução bacteriana. Vírus não realizam esses processos e não têm essas estruturas, sendo imunes a antibióticos."
+        },
+        {
+            "titulo": "Questão 30 (UFMG – 2019)",
+            "enunciado": "O HIV é classificado como retrovírus porque:",
+            "alternativas": [
+                "a) Possui DNA circular",
+                "b) Utiliza transcriptase reversa",
+                "c) Infecta bactérias",
+                "d) Não possui cápside",
+                "e) Apresenta parede celular"
+            ],
+            "gabarito": "b) Utiliza transcriptase reversa",
+            "explicacao": "O termo 'retrovírus' vem da capacidade de realizar a transcrição reversa (RNA -> DNA). O HIV usa essa estratégia para integrar seu genoma ao DNA da célula humana e estabelecer infecção crônica."
+        },
+        {
+            "titulo": "Questão 31 (ENEM – 2014)",
+            "enunciado": "A emergência de novas cepas virais está associada:",
+            "alternativas": [
+                "a) À reprodução lenta",
+                "b) À baixa mutação",
+                "c) À alta variabilidade genética",
+                "d) À ausência de seleção",
+                "e) À dependência de vetores"
+            ],
+            "gabarito": "c) À alta variabilidade genética",
+            "explicacao": "A emergência de novas cepas virais deve-se à alta variabilidade genética gerada por mutações rápidas e recombinação. Isso permite que o vírus se adapte a novos hospedeiros ou escape da imunidade populacional."
+        },
+        {
+            "titulo": "Questão 32 (FUVEST – 2006)",
+            "enunciado": "Vírus diferem das bactérias porque:",
+            "alternativas": [
+                "a) Não possuem proteínas",
+                "b) Não apresentam metabolismo próprio",
+                "c) Não possuem ácido nucleico",
+                "d) Não causam doenças",
+                "e) Não se reproduzem"
+            ],
+            "gabarito": "b) Não apresentam metabolismo próprio",
+            "explicacao": "Bactérias são células completas com metabolismo próprio. Vírus são parasitas genéticos que não possuem metabolismo, dependendo inteiramente da célula hospedeira para todas as funções vitais."
+        },
+        {
+            "titulo": "Questão 33 (UNICAMP – 2012)",
+            "enunciado": "A especificidade viral está relacionada:",
+            "alternativas": [
+                "a) Ao tamanho do capsídeo",
+                "b) A receptores celulares",
+                "c) Ao envelope",
+                "d) À temperatura",
+                "e) Ao RNA"
+            ],
+            "gabarito": "b) A receptores celulares",
+            "explicacao": "A especificidade viral é determinada pela interação química precisa entre proteínas na superfície do vírus e receptores específicos na membrana da célula alvo. Sem esse encaixe, a infecção não ocorre."
+        },
+        {
+            "titulo": "Questão 34 (UFRGS – 2011)",
+            "enunciado": "No ciclo lisogênico o vírus:",
+            "alternativas": [
+                "a) Provoca lise",
+                "b) Replica-se fora da célula",
+                "c) Integra-se ao genoma",
+                "d) É eliminado",
+                "e) Forma cápside externa"
+            ],
+            "gabarito": "c) Integra-se ao genoma",
+            "explicacao": "No ciclo lisogênico, o vírus não mata a célula. Seu DNA integra-se ao genoma bacteriano e é copiado passivamente toda vez que a bactéria se divide, propagando o vírus silenciosamente."
+        },
+        {
+            "titulo": "Questão 35 (UFPR – 2018)",
+            "enunciado": "Vírus de RNA apresentam alta mutação porque:",
+            "alternativas": [
+                "a) São maiores",
+                "b) Possuem envelope",
+                "c) Não corrigem erros",
+                "d) Replicam lentamente",
+                "e) Possuem DNA"
+            ],
+            "gabarito": "c) Não corrigem erros",
+            "explicacao": "Vírus de RNA mutam muito porque suas enzimas de replicação (RNA-polimerases) não corrigem erros de cópia. Isso gera uma 'nuvem' de variantes virais, facilitando a adaptação e evolução rápida."
+        },
+        {
+            "titulo": "Questão 36 (UFMG – 2008)",
+            "enunciado": "A infecção viral inicia-se quando o vírus:",
+            "alternativas": [
+                "a) Produz toxinas",
+                "b) Penetra na célula",
+                "c) Replica-se no ambiente",
+                "d) Realiza metabolismo",
+                "e) Forma parede celular"
+            ],
+            "gabarito": "b) Penetra na célula",
+            "explicacao": "Para se multiplicar, o vírus precisa colocar seu genoma em contato com a maquinaria celular. Por isso, a penetração na célula é o passo inicial e crucial da infecção viral."
+        },
+        {
+            "titulo": "Questão 37 (UFSC – 2010)",
+            "enunciado": "O capsídeo viral é constituído por:",
+            "alternativas": [
+                "a) Peptidoglicano",
+                "b) Lipossomos",
+                "c) Capsômeros",
+                "d) Ribossomos",
+                "e) Fímbrias"
+            ],
+            "gabarito": "c) Capsômeros",
+            "explicacao": "O capsídeo viral é montado a partir de múltiplas cópias de proteínas chamadas capsômeros. Essa organização modular permite construir uma estrutura grande e protetora com economia genética."
+        },
+        {
+            "titulo": "Questão 38 (UECE – 2014)",
+            "enunciado": "A transmissão do HIV ocorre por:",
+            "alternativas": [
+                "a) Picada de insetos",
+                "b) Contato casual",
+                "c) Fluidos corporais",
+                "d) Água",
+                "e) Ar"
+            ],
+            "gabarito": "c) Fluidos corporais",
+            "explicacao": "O HIV é transmitido principalmente por contato sexual desprotegido, contato com sangue contaminado (seringas) e da mãe para o filho. Ele não sobrevive no ar ou água, exigindo contato direto de fluidos."
+        },
+        {
+            "titulo": "Questão 39 (ENEM – 2018)",
+            "enunciado": "A resposta imune específica contra vírus envolve:",
+            "alternativas": [
+                "a) Neutrófilos",
+                "b) Hemácias",
+                "c) Linfócitos",
+                "d) Plaquetas",
+                "e) Monócitos apenas"
+            ],
+            "gabarito": "c) Linfócitos",
+            "explicacao": "A defesa específica contra vírus envolve Linfócitos B (que produzem anticorpos para neutralizar o vírus livre) e Linfócitos T (que destroem as células já infectadas para impedir a replicação)."
+        },
+        {
+            "titulo": "Questão 40 (FUVEST – 2014)",
+            "enunciado": "Vírus envelopados são mais sensíveis porque:",
+            "alternativas": [
+                "a) Possuem cápside menor",
+                "b) Dependem de lipídios do envelope",
+                "c) Não possuem ácido nucleico",
+                "d) Replicam lentamente",
+                "e) Infectam menos células"
+            ],
+            "gabarito": "b) Dependem de lipídios do envelope",
+            "explicacao": "O envelope viral é composto de lipídios e é sensível ao ressecamento, calor e detergentes. Por isso, vírus envelopados são geralmente menos resistentes no ambiente do que vírus não envelopados."
+        },
+        {
+            "titulo": "Questão 41 (UNICAMP – 2019)",
+            "enunciado": "A replicação de retrovírus envolve:",
+            "alternativas": [
+                "a) DNA polimerase",
+                "b) RNA polimerase",
+                "c) Transcriptase reversa",
+                "d) Ligase",
+                "e) Primase"
+            ],
+            "gabarito": "c) Transcriptase reversa",
+            "explicacao": "A transcriptase reversa é a enzima que define os retrovírus. Ela é responsável por converter o genoma de RNA viral em DNA, permitindo a integração no genoma do hospedeiro."
+        },
+        {
+            "titulo": "Questão 42 (UFRGS – 2016)",
+            "enunciado": "A liberação de vírus envelopados ocorre por:",
+            "alternativas": [
+                "a) Lise",
+                "b) Brotamento",
+                "c) Fagocitose",
+                "d) Pinocitose",
+                "e) Endocitose"
+            ],
+            "gabarito": "b) Brotamento",
+            "explicacao": "Vírus envelopados geralmente saem da célula por brotamento. Eles empurram a membrana plasmática, levando um pedaço dela como envelope. Isso permite a saída do vírus sem causar a lise imediata da célula."
+        },
+        {
+            "titulo": "Questão 43 (UFPR – 2011)",
+            "enunciado": "A especificidade vírus–hospedeiro depende:",
+            "alternativas": [
+                "a) Do tamanho",
+                "b) Do ácido nucleico",
+                "c) Dos receptores celulares",
+                "d) Da forma do capsídeo",
+                "e) Do ciclo lítico"
+            ],
+            "gabarito": "c) Dos receptores celulares",
+            "explicacao": "A capacidade de um vírus infectar um hospedeiro específico depende da presença de receptores celulares compatíveis com as proteínas de ligação do vírus. Isso define a gama de hospedeiros do vírus."
+        },
+        {
+            "titulo": "Questão 44 (UFMG – 2016)",
+            "enunciado": "A principal consequência da infecção por HIV é:",
+            "alternativas": [
+                "a) Lise imediata",
+                "b) Redução da resposta imune",
+                "c) Aumento de anticorpos",
+                "d) Formação de cápsulas",
+                "e) Destruição de hemácias"
+            ],
+            "gabarito": "b) Redução da resposta imune",
+            "explicacao": "O HIV ataca e destrói os linfócitos T CD4+, células essenciais para comandar o sistema imune. A redução dessas células deixa o organismo vulnerável a infecções oportunistas, caracterizando a AIDS."
+        },
+        {
+            "titulo": "Questão 45 (UFSC – 2014)",
+            "enunciado": "Vírus diferem das células porque:",
+            "alternativas": [
+                "a) Não possuem proteínas",
+                "b) Não apresentam organização celular",
+                "c) Não possuem DNA",
+                "d) Não infectam organismos",
+                "e) Não se multiplicam"
+            ],
+            "gabarito": "b) Não apresentam organização celular",
+            "explicacao": "A principal diferença é que vírus não têm organização celular (membrana, citoplasma, núcleo). São apenas material genético envolto em proteína, necessitando de uma célula para funcionar."
+        },
+        {
+            "titulo": "Questão 46 (UECE – 2018)",
+            "enunciado": "A vacinação previne viroses ao estimular:",
+            "alternativas": [
+                "a) Lise viral",
+                "b) Memória imunológica",
+                "c) Mutação viral",
+                "d) Ação antibiótica",
+                "e) Destruição do capsídeo"
+            ],
+            "gabarito": "b) Memória imunológica",
+            "explicacao": "Vacinas simulam uma infecção apresentando antígenos virais ao corpo. Isso estimula a produção de células de memória (B e T) que responderão de forma rápida e eficaz caso o vírus real invada o organismo."
+        },
+        {
+            "titulo": "Questão 47 (ENEM – 2021)",
+            "enunciado": "A dificuldade em erradicar viroses decorre:",
+            "alternativas": [
+                "a) Da baixa mutação",
+                "b) Da alta especificidade",
+                "c) Da rápida evolução viral",
+                "d) Da ausência de transmissão",
+                "e) Da baixa variabilidade"
+            ],
+            "gabarito": "c) Da rápida evolução viral",
+            "explicacao": "A erradicação é dificultada pela rápida evolução dos vírus (especialmente de RNA), que podem mudar o suficiente para escapar da imunidade vacinal, e pela existência de reservatórios animais."
+        },
+        {
+            "titulo": "Questão 48 (FUVEST – 2019)",
+            "enunciado": "A entrada viral na célula depende:",
+            "alternativas": [
+                "a) Da pressão osmótica",
+                "b) Do reconhecimento de receptores",
+                "c) Da quantidade de ATP",
+                "d) Da divisão celular",
+                "e) Do ciclo lisogênico"
+            ],
+            "gabarito": "b) Do reconhecimento de receptores",
+            "explicacao": "A entrada do vírus na célula não é passiva; ela depende do reconhecimento específico entre proteínas virais e receptores na superfície celular, o que desencadeia a entrada do vírus."
+        },
+        {
+            "titulo": "Questão 49 (UNICAMP – 2020)",
+            "enunciado": "A diversidade dos vírus relaciona-se:",
+            "alternativas": [
+                "a) Ao ambiente",
+                "b) Ao envelope",
+                "c) Ao material genético e capsídeo",
+                "d) À presença de mitocôndrias",
+                "e) Ao metabolismo"
+            ],
+            "gabarito": "c) Ao material genético e capsídeo",
+            "explicacao": "A diversidade viral vem da variedade de tipos de material genético (DNA ou RNA, fita simples ou dupla) e das diferentes formas e estruturas dos capsídeos proteicos."
+        },
+        {
+            "titulo": "Questão 50 (UFRGS – 2019)",
+            "enunciado": "Vírus não são seres vivos completos porque:",
+            "alternativas": [
+                "a) Não possuem proteínas",
+                "b) Não apresentam material genético",
+                "c) Não realizam metabolismo próprio",
+                "d) Não infectam células",
+                "e) Não se reproduzem"
+            ],
+            "gabarito": "c) Não realizam metabolismo próprio",
+            "explicacao": "Vírus não são considerados seres vivos completos porque não possuem metabolismo próprio nem capacidade de reprodução autônoma, dependendo inteiramente da maquinaria de uma célula hospedeira."
+        }
+    ]
+}               

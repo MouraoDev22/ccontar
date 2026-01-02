@@ -1,6 +1,7 @@
 @import url(header.css);
 @import url(footer.css);
 @import url(articles.css);
+@import url(questoes.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
@@ -13,7 +14,8 @@
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
-    font-family: "Roboto", sans-serif;;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
 }
 
 .apresentacao {
