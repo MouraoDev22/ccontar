@@ -9,6 +9,12 @@
     --cor-texto: #EEEEEE;
     --cor-borda: #D84040;
     --cor-rodape: #111111;
+    
+    --cor-fundo-aviso: #ffcdcd;
+    --cor-texto-aviso: #850404;
+    --cor-borda-aviso: #ffbaba;
+
+    --cor-fundo-alternativa: #282828;
 }
 
 body {
